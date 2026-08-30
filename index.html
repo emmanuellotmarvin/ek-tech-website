@@ -34,9 +34,13 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
     />
+    <!-- Lottie (animações) -->
+    <script src="https://unpkg.com/lottie-web@5.12.2/build/player/lottie.min.js"></script>
+    <!-- AOS - Animate On Scroll (animações de texto ao fazer scroll) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
     <!-- App CSS -->
     <link rel="stylesheet" href="style.css" />
-    <title>SuccesfullSites | Agency Website</title>
+    <title>EK TECH | Agência de Tecnologia</title>
   </head>
   <body>
     <div class="app">
@@ -45,18 +49,18 @@
         class="navbar navbar-expand-lg navbar-light bg-transparent"
       ></nav>
       <div id="Herosection" class="position-relative"></div>
-      <div id="LogoCloud1" class="Logo-cloud py-5"></div>
+      <div id="LogoCloud1" class="Logo-cloud py-5 d-none"></div>
+      <div id="Metric" class="section"></div>
       <div id="Features" class="features-section"></div>
+      <div id="CTA" class="bg-secondary-600"></div>
       <section
         id="Testimonial"
         class="testimonial-section bg-secondary-100"
       ></section>
-      <div id="Metric" class="section"></div>
       <div id="LogoCloud2" class="section"></div>
       <div id="Careers" class="bg-secondary-100"></div>
       <div id="Pricing" class="bg-neutral-50"></div>
       <div id="FAQ" class=""></div>
-      <div id="CTA" class="bg-secondary-600"></div>
       <div id="Footer" class="text-white py-5"></div>
       <a
         href="#"
@@ -73,6 +77,7 @@
       crossorigin="anonymous"
     ></script>
     <!-- App Component's JS -->
+    <script src="./components/heroAnimationData.js"></script>
     <script src="./components/Navbar.js"></script>
     <script src="./components/Herosection.js"></script>
     <script src="./components/LogoCloud.js"></script>
@@ -84,6 +89,16 @@
     <script src="./components/Pricing.js"></script>
     <script src="./components/FAQ.js"></script>
     <script src="./components/Footer.js"></script>
+    <!-- AOS init -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 700,
+        easing: "ease-out",
+        once: true,
+        offset: 80,
+      });
+    </script>
     <script>
       const navbar = document.getElementById("Navbar");
       const ArrowToTop = document.getElementById("ArrowToTop");

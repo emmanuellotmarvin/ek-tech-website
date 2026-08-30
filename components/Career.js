@@ -4,14 +4,14 @@ function Career() {
   Container.classList.add("container", "py-5");
   Container.innerHTML = `
     <div class="row row-cols-1 row-cols-md-2 gy-5 align-items-center">
-    <div class="col text-body">
-      <h2 class="title fw-bold">Join the Atlassian Talent Community</h2>
+    <div class="col text-body" data-aos="fade-up">
+      <h2 class="title fw-bold">Tem um projecto em mente? Fale connosco</h2>
       <p class="mt-2">
-        Don’t see an exact role match? No problem! Join our Talent
-        Community and stay up-to-date on company and careers updates
-        relevant to your career.
+        Da ideia ao sistema pronto a usar — a nossa equipa está disponível
+        para perceber a sua necessidade e propor a melhor solução para o
+        seu negócio.
       </p>
-      <a class="button btn-theme-default mt-3" href="#"> Join Now </a>
+      <a class="button btn-theme-default mt-3" href="tel:851903771"> Falar connosco </a>
     </div>
     <div class="col container-body">
       <img

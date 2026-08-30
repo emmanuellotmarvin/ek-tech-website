@@ -31,15 +31,43 @@ function LogoCloud() {
   `;
   Container2.innerHTML = `
   <div class="row row-cols-1 row-cols-md-2 gy-5 gx-5">
-          <div class="text-body col">
-            <h2 class="title fw-bold">Easy integrations with 170+ tools</h2>
+          <div class="text-body col" data-aos="fade-up">
+            <h2 class="title fw-bold">A tecnologia por trás das nossas soluções</h2>
             <p class="Description mt-2">
-              Connect Landify with your favourite tools that you use daily and
-              keep things on track.
+              Escolhemos ferramentas modernas e robustas para garantir
+              sistemas rápidos, seguros e sempre disponíveis.
             </p>
           </div>
           <div class="content col">
-            <img class='img-fluid' src="./Images/mockup-metric06.png" alt="" srcset="" />
+            <div class="row row-cols-1 row-cols-md-2 gy-4 gx-4">
+              <div class="content-item d-flex align-items-center col" data-aos="fade-up" data-aos-delay="0">
+                <div class="icon">
+                  <img src="./Images/Base-feature-icon-1.svg" alt="" />
+                </div>
+                <div class="text ms-3">
+                  <div class="title fw-bold">Apps nativas</div>
+                  <div class="Description">Para Android e iOS, com óptimo desempenho.</div>
+                </div>
+              </div>
+              <div class="content-item d-flex align-items-center col" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon">
+                  <img src="./Images/Base-feature-icon-3.svg" alt="" />
+                </div>
+                <div class="text ms-3">
+                  <div class="title fw-bold">Dados protegidos</div>
+                  <div class="Description">Informação segura e sempre disponível.</div>
+                </div>
+              </div>
+              <div class="content-item d-flex align-items-center col" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon">
+                  <img src="./Images/Base-feature-icon-8.svg" alt="" />
+                </div>
+                <div class="text ms-3">
+                  <div class="title fw-bold">Suporte contínuo</div>
+                  <div class="Description">Actualizações e manutenção constante.</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
   `;

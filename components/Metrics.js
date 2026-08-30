@@ -4,48 +4,43 @@ function Metrics() {
   Container.classList.add("container");
   Container.innerHTML = `
     <div class="row row-cols-1 row-cols-lg-2 gy-5 gx-5">
-          <div class="text-body col">
-            <h2 class="fw-bold">Our 18 years of achievements</h2>
+          <div class="text-body col" data-aos="fade-up">
+            <h2 class="fw-bold">Quem somos</h2>
             <p class="Description mt-2">
-              With our super powers we have reached this
+              A EK TECH é uma empresa moçambicana de desenvolvimento de
+              software sediada em Nampula. Especializamo-nos em sistemas de
+              gestão para o sector público e privado, com integração nativa
+              de pagamentos móveis, adaptados à realidade do mercado
+              moçambicano.
             </p>
           </div>
           <div class="content col">
-            <div class="row row-cols-1 row-cols-md-2 gy-4 gx-4">
-              <div class="content-item d-flex align-items-center col">
+            <div class="row row-cols-1 row-cols-md-3 gy-4 gx-4">
+              <div class="content-item d-flex align-items-center col" data-aos="fade-up" data-aos-delay="0">
                 <div class="icon">
                   <img src="./Images/Base-feature-icon-1.svg" alt="" />
                 </div>
                 <div class="text ms-3">
-                  <div class="title fw-bold">10,000+</div>
-                  <div class="Description">Downloads per day</div>
+                  <div class="title fw-bold">3+</div>
+                  <div class="Description">Anos de experiência</div>
                 </div>
               </div>
-              <div class="content-item d-flex align-items-center col">
+              <div class="content-item d-flex align-items-center col" data-aos="fade-up" data-aos-delay="100">
                 <div class="icon">
                   <img src="./Images/Base-feature-icon-7.svg" alt="" />
                 </div>
                 <div class="text ms-3">
-                  <div class="title fw-bold">2 Million</div>
-                  <div class="Description">Users</div>
+                  <div class="title fw-bold">5+</div>
+                  <div class="Description">Sistemas entregues</div>
                 </div>
               </div>
-              <div class="content-item d-flex align-items-center col">
+              <div class="content-item d-flex align-items-center col" data-aos="fade-up" data-aos-delay="200">
                 <div class="icon">
                   <img src="./Images/Base-feature-icon-2.svg" alt="" />
                 </div>
                 <div class="text ms-3">
-                  <div class="title fw-bold">500+</div>
-                  <div class="Description">Clients</div>
-                </div>
-              </div>
-              <div class="content-item d-flex align-items-center col">
-                <div class="icon">
-                  <img src="./Images/Base-feature-icon-6.svg" alt="" />
-                </div>
-                <div class="text ms-3">
-                  <div class="title fw-bold">140</div>
-                  <div class="Description">Countries</div>
+                  <div class="title fw-bold">100%</div>
+                  <div class="Description">Foco no mercado local</div>
                 </div>
               </div>
             </div>

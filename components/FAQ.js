@@ -3,11 +3,11 @@ function FAQ() {
   const Container = document.createElement("div");
   Container.classList.add("container");
   Container.innerHTML = `
-  <div class="text-body">
-        <h2 class='title fw-bold'>Frequently Asked Questions</h2>
-        <p>These are the questions we hear more often.</p>
+  <div class="text-body" data-aos="fade-up">
+        <h2 class='title fw-bold'>Perguntas Frequentes</h2>
+        <p>Estas são as perguntas que mais ouvimos dos nossos clientes.</p>
       </div>
-  <div class="accordion mt-5" id="accordionExample">
+  <div class="accordion mt-5" id="accordionExample" data-aos="fade-up" data-aos-delay="100">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button
@@ -18,7 +18,7 @@ function FAQ() {
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
-                Accordion Item #1
+                Quanto tempo demora um projecto?
               </button>
             </h2>
             <div
@@ -28,7 +28,11 @@ function FAQ() {
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu bibendum eget adipiscing blandit tempus, viverra lacus in. Faucibus aliquet aenean ornare eget. Nibh nunc morbi maecenas ipsum at. Ac fames metus, ipsum tortor mauris facilisi lobortis eu. At magnis et quis sem lorem mattis. 
+                O prazo varia consoante a complexidade do projecto. Um
+                website institucional ou app simples pode ficar pronto em
+                poucas semanas, enquanto sistemas completos com múltiplas
+                integrações podem levar alguns meses. Definimos sempre um
+                cronograma claro antes de começar.
               </div>
             </div>
           </div>
@@ -42,7 +46,7 @@ function FAQ() {
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-                Accordion Item #2
+                Como funciona o pagamento/orçamento?
               </button>
             </h2>
             <div
@@ -52,7 +56,10 @@ function FAQ() {
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu bibendum eget adipiscing blandit tempus, viverra lacus in. Faucibus aliquet aenean ornare eget. Nibh nunc morbi maecenas ipsum at. Ac fames metus, ipsum tortor mauris facilisi lobortis eu. At magnis et quis sem lorem mattis. 
+                Cada projecto tem um orçamento personalizado, calculado com
+                base na complexidade, nas funcionalidades e no prazo
+                pretendido. Entre em contacto connosco e enviamos uma
+                proposta detalhada sem compromisso.
               </div>
             </div>
           </div>
@@ -66,7 +73,7 @@ function FAQ() {
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
-                Accordion Item #3
+                Trabalham só com o sector público ou também privado?
               </button>
             </h2>
             <div
@@ -76,7 +83,10 @@ function FAQ() {
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu bibendum eget adipiscing blandit tempus, viverra lacus in. Faucibus aliquet aenean ornare eget. Nibh nunc morbi maecenas ipsum at. Ac fames metus, ipsum tortor mauris facilisi lobortis eu. At magnis et quis sem lorem mattis. 
+                Trabalhamos com ambos. Já desenvolvemos sistemas para
+                empresas municipais de transporte, clínicas privadas,
+                imobiliárias e comércio — adaptando cada solução à realidade
+                do cliente.
               </div>
             </div>
           </div>
@@ -90,7 +100,7 @@ function FAQ() {
                 aria-expanded="false"
                 aria-controls="collapseFour"
               >
-                Accordion Item #4
+                Fazem manutenção e suporte depois de entregar o sistema?
               </button>
             </h2>
             <div
@@ -100,7 +110,9 @@ function FAQ() {
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                <strong>This is the fourth item's accordion body.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu bibendum eget adipiscing blandit tempus, viverra lacus in. Faucibus aliquet aenean ornare eget. Nibh nunc morbi maecenas ipsum at. Ac fames metus, ipsum tortor mauris facilisi lobortis eu. At magnis et quis sem lorem mattis. 
+                Sim. Todos os nossos pacotes incluem suporte após o
+                lançamento, e oferecemos planos de manutenção contínua para
+                actualizações, correcções e melhorias futuras.
               </div>
             </div>
           </div>
@@ -114,7 +126,7 @@ function FAQ() {
                 aria-expanded="false"
                 aria-controls="collapseFive"
               >
-                Accordion Item #5
+                É possível integrar pagamentos móveis nos sistemas?
               </button>
             </h2>
             <div
@@ -124,7 +136,10 @@ function FAQ() {
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                <strong>This is the fifth item's accordion body.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu bibendum eget adipiscing blandit tempus, viverra lacus in. Faucibus aliquet aenean ornare eget. Nibh nunc morbi maecenas ipsum at. Ac fames metus, ipsum tortor mauris facilisi lobortis eu. At magnis et quis sem lorem mattis. 
+                Sim, temos experiência em integrar pagamentos móveis
+                directamente em apps, sistemas web e plataformas de gestão,
+                tornando o processo mais rápido e conveniente para os
+                utilizadores finais.
               </div>
             </div>
           </div>

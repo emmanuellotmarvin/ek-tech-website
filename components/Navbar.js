@@ -4,48 +4,30 @@ function Navbar() {
   Container.classList.add("container");
   Container.innerHTML = `
   <div class="nav-left d-flex" id="navbarNav">
-  <a class="navbar-brand me-5" href="#">
-    <img
-      class="BrandLogo"
-      src="./Images/Logo-BgWhite.svg"
-      alt=""
-      srcset=""
-    />
-  </a>
+  <a class="navbar-brand me-5 fw-bold" href="#Herosection">EK TECH</a>
   <ul class="navbar-nav d-none d-lg-flex">
     <li class="nav-item">
-      <a class="nav-link" href="#Features">Features</a>
+      <a class="nav-link" href="#Herosection">Início</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#Pricing">Pricing</a>
+      <a class="nav-link" href="#Metric">Sobre</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#Careers">Careers</a>
+      <a class="nav-link" href="#Features">Serviços</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#FAQ">Help</a>
+      <a class="nav-link" href="#CTA">Portfólio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#Pricing">Pacotes</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#FAQ">FAQ</a>
     </li>
   </ul>
 </div>
 <div class="nav-right d-flex align-items-center">
-  <div class="badges-items me- d-none d-sm-block">
-    <a class="badge-item text-decoration-none" href="#1">
-      <img
-        class="item"
-        src="./Images/Store badge.svg"
-        alt=""
-        srcset=""
-      />
-    </a>
-    <a class="badge-item text-decoration-none" href="#2">
-      <img
-        class="item"
-        src="./Images/Store badge-1.svg"
-        alt=""
-        srcset=""
-      />
-    </a>
-  </div>
+  <a class="button btn-theme-default d-none d-sm-inline-flex" href="#Careers">Falar connosco</a>
   <button
     class="btn collapsed d-lg-none"
     type="button"
@@ -64,7 +46,7 @@ function Navbar() {
 >
   <div class="offcanvas-header">
     <h5 class="offcanvas-title" id="offcanvasRightLabel">
-      Offcanvas right
+      EK TECH
     </h5>
     <button
       type="button"
@@ -76,36 +58,28 @@ function Navbar() {
   <div class="offcanvas-body">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#Features">Features</a>
+        <a class="nav-link" href="#Herosection">Início</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#Pricing">Pricing</a>
+        <a class="nav-link" href="#Metric">Sobre</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#Careers">Careers</a>
+        <a class="nav-link" href="#Features">Serviços</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#FAQ">Help</a>
+        <a class="nav-link" href="#CTA">Portfólio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Pricing">Pacotes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#FAQ">FAQ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Careers">Contacto</a>
       </li>
     </ul>
-    <div class="badges-items h-100 mt-3 d-flex flex-column">
-      <a class="badge-item text-decoration-none" href="#1">
-        <img
-          class="item"
-          src="./Images/Store badge.svg"
-          alt=""
-          srcset=""
-        />
-      </a>
-      <a class="badge-item text-decoration-none" href="#2">
-        <img
-          class="item"
-          src="./Images/Store badge-1.svg"
-          alt=""
-          srcset=""
-        />
-      </a>
-    </div>
+    <a class="button btn-theme-default mt-3 d-inline-flex" href="#Careers">Falar connosco</a>
   </div>
 </div>
     `;

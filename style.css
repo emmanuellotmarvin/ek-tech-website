@@ -340,6 +340,29 @@ Hero Section
 .mockup-img img {
   max-height: 560px;
 }
+.hero-lottie {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+}
+@keyframes heroEntrance {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.hero-lottie {
+  animation: heroEntrance 0.8s ease-out both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-lottie {
+    animation: none;
+  }
+}
 @media (min-width: 786px) {
   #Herosection .text-wrapper {
     padding-top: 64px;
@@ -406,6 +429,31 @@ LogoCloud Section
 ***/
 .ClientLogo img {
   max-height: 26px;
+}
+/***
+
+====================================================================
+Testimonial Client Logo
+====================================================================
+
+***/
+.client-logo {
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+.client-logo img {
+  max-height: 36px;
+  max-width: 140px;
+  width: auto;
+  object-fit: contain;
+}
+.client-logo img.logo-lg {
+  max-height: 60px;
+  max-width: 200px;
+}
+.client-logo.client-logo-lg {
+  height: 60px;
 }
 /*** 
 
