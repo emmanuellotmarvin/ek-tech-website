@@ -1,0 +1,16 @@
+/* EK Tech: main stylesheet */
+
+/* Fonts are loaded by next/font in site/layout.tsx */
+
+/* TailwindCSS */
+@import "tailwindcss";
+
+/* Preline UI */
+@import "preline/variants.css";
+@source "preline/dist/*.js";
+
+/* Tailwind Plugin */
+@plugin "@tailwindcss/forms";
+
+@import "./_config.css";
+@import "./_general.css";

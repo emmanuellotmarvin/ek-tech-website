@@ -1,0 +1,292 @@
+/* _general.css */
+
+
+@layer base {
+    html {
+        @apply w-full scroll-smooth;
+    }
+
+    body {
+        @apply font-body bg-body-bg text-body-color md:text-lg text-base leading-[1.3em] font-medium overflow-x-clip;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-heading leading-[1.3] font-semibold text-default-900;
+    }
+
+    button:not(:disabled),
+    [role="button"]:not(:disabled) {
+        @apply cursor-pointer;
+    }
+}
+
+
+
+select,
+input,
+textarea {
+    @apply transition-all duration-200 focus:border-primary focus:ring-0 focus:outline-0;
+}
+
+
+
+
+.container {
+    @apply lg:px-0 md:px-5 px-3.5 max-w-300 mx-auto;
+}
+
+.container-full {
+    @apply mx-auto max-w-full lg:px-25 md:px-7.5 px-4;
+}
+
+
+/* Navbar Active Link */
+#navbar li.active a,
+#navbar .hs-dropdown-menu a.active {
+    @apply text-default-800 bg-default-200;
+}
+
+
+/* Normal direction */
+@keyframes infinite-scroll {
+    from {
+        transform: trandefaultX(0);
+    }
+
+    to {
+        transform: trandefaultX(-100%);
+    }
+}
+
+.infinite-scroll {
+    animation: infinite-scroll 100s linear infinite;
+    will-change: transform;
+}
+
+/* Inverse direction */
+@keyframes infinite-scroll-inverse {
+    from {
+        transform: trandefaultX(-100%);
+    }
+
+    to {
+        transform: trandefaultX(0);
+    }
+}
+
+.infinite-scroll-inverse {
+    animation: infinite-scroll-inverse 100s linear infinite;
+    will-change: transform;
+}
+
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes scroll-right {
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.animate-scroll-left {
+    animation: scroll-left 30s linear infinite;
+}
+
+.animate-scroll-right {
+    animation: scroll-right 30s linear infinite;
+}
+
+/* 2-image fade cycle (devices in the final section) */
+
+@keyframes pairSwap {
+
+    0%,
+    46% {
+        opacity: 1;
+    }
+
+    50%,
+    96% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes pairSwap2 {
+
+    0%,
+    46% {
+        opacity: 0;
+    }
+
+    50%,
+    96% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.animate-pairSwap {
+    animation: pairSwap 9s infinite;
+}
+
+.animate-pairSwap2 {
+    animation: pairSwap2 9s infinite;
+}
+
+/* 3-image fade cycle (title pill) */
+
+@keyframes deviceSwap {
+
+    0%,
+    30% {
+        opacity: 1;
+    }
+
+    33%,
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes deviceSwap2 {
+
+    0%,
+    30% {
+        opacity: 0;
+    }
+
+    33%,
+    63% {
+        opacity: 1;
+    }
+
+    66%,
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes deviceSwap3 {
+
+    0%,
+    63% {
+        opacity: 0;
+    }
+
+    66%,
+    97% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.animate-deviceSwap {
+    animation: deviceSwap 12s infinite;
+}
+
+.animate-deviceSwap2 {
+    animation: deviceSwap2 12s infinite;
+}
+
+.animate-deviceSwap3 {
+    animation: deviceSwap3 12s infinite;
+}
+
+/* about */
+@keyframes marquee-left {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-marquee-left {
+    animation: marquee-left 65s linear infinite;
+}
+
+@keyframes marquee-right {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(50%);
+    }
+}
+
+.animate-marquee-right {
+    animation: marquee-right 65s linear infinite;
+}
+
+/* features */
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-marquee {
+    animation: marquee 20s linear infinite;
+}
+
+/* users */
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-marquee {
+    animation: marquee 40s linear infinite;
+    width: max-content;
+}
+
+.animate-marquee:hover {
+    animation-play-state: paused;
+}
+
+.animate-marquee+.animate-marquee:hover {
+    animation-play-state: paused;
+}
+
+.flip-horizontal {
+    transform: scaleX(-1);
+}

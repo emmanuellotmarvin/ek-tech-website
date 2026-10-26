@@ -1,0 +1,92 @@
+<svg width="438" height="695" viewBox="0 0 438 695" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <!-- EK Tech example: school management app, tuition fees screen (fictional data) -->
+  <defs>
+    <clipPath id="screen"><rect x="18" y="18" width="402" height="659" rx="44"/></clipPath>
+    <linearGradient id="summary" x1="34" y1="140" x2="404" y2="262" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563eb"/><stop offset="1" stop-color="#1e40af"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="430" height="687" rx="58" stroke="white" stroke-opacity="0.1" stroke-width="8"/>
+  <rect x="8" y="8" width="422" height="679" rx="54" fill="#0f1115"/>
+  <rect x="8.5" y="8.5" width="421" height="678" rx="53.5" stroke="white" stroke-opacity="0.18"/>
+
+  <g clip-path="url(#screen)">
+    <rect x="18" y="18" width="402" height="659" fill="#f6f7fb"/>
+    <text x="56" y="54" fill="#111" font-size="15" font-weight="600">9:41</text>
+    <rect x="170" y="30" width="98" height="28" rx="14" fill="#0f1115"/>
+    <rect x="336" y="45" width="3.5" height="6" rx="1" fill="#111"/>
+    <rect x="341.5" y="42" width="3.5" height="9" rx="1" fill="#111"/>
+    <rect x="347" y="39" width="3.5" height="12" rx="1" fill="#111"/>
+    <rect x="358" y="39" width="26" height="12" rx="3.5" stroke="#111" stroke-opacity="0.4" stroke-width="1.4"/>
+    <rect x="361" y="42" width="15" height="6" rx="1.5" fill="#111"/>
+
+    <path d="M46 92l-8 8 8 8" stroke="#111" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="62" y="107" fill="#111" font-size="21" font-weight="700">Propinas</text>
+    <rect x="304" y="86" width="100" height="30" rx="15" fill="white" stroke="#e4e4e7"/>
+    <text x="344" y="106" text-anchor="middle" fill="#111" font-size="12.5" font-weight="600">Outubro</text>
+    <path d="M380 98l4 4 4-4" stroke="#111" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="34" y="136" width="370" height="128" rx="20" fill="url(#summary)"/>
+    <text x="56" y="166" fill="white" fill-opacity="0.8" font-size="13">Recebido em Outubro</text>
+    <text x="56" y="205" fill="white" font-size="32" font-weight="700">245 000 MT</text>
+    <rect x="56" y="222" width="326" height="8" rx="4" fill="white" fill-opacity="0.25"/>
+    <rect x="56" y="222" width="267" height="8" rx="4" fill="white"/>
+    <text x="56" y="250" fill="white" fill-opacity="0.85" font-size="12">82% das propinas pagas</text>
+
+    <rect x="34" y="280" width="118" height="62" rx="14" fill="white"/>
+    <circle cx="52" cy="300" r="5" fill="#2563eb"/>
+    <text x="64" y="304" fill="#71717a" font-size="11.5">Carteira móvel</text>
+    <text x="48" y="330" fill="#111" font-size="18" font-weight="700">58%</text>
+    <rect x="160" y="280" width="118" height="62" rx="14" fill="white"/>
+    <circle cx="178" cy="300" r="5" fill="#7c3aed"/>
+    <text x="190" y="304" fill="#71717a" font-size="11.5">Transferência</text>
+    <text x="174" y="330" fill="#111" font-size="18" font-weight="700">24%</text>
+    <rect x="286" y="280" width="118" height="62" rx="14" fill="white"/>
+    <circle cx="304" cy="300" r="5" fill="#71717a"/>
+    <text x="316" y="304" fill="#71717a" font-size="11.5">Secretaria</text>
+    <text x="300" y="330" fill="#111" font-size="18" font-weight="700">18%</text>
+
+    <text x="36" y="384" fill="#111" font-size="16" font-weight="700">Pagamentos recentes</text>
+    
+    <rect x="34" y="404" width="370" height="58" rx="14" fill="white"/>
+    <circle cx="66" cy="433" r="18" fill="#2563eb" fill-opacity="0.14"/>
+    <text x="66" y="438" text-anchor="middle" fill="#2563eb" font-size="12" font-weight="700">AM</text>
+    <text x="96" y="429" fill="#111" font-size="13.5" font-weight="600">Ana Mussa</text>
+    <text x="96" y="447" fill="#a1a1aa" font-size="11">8ª A · Carteira móvel</text>
+    <text x="388" y="429" text-anchor="end" fill="#111" font-size="13" font-weight="700">2 500 MT</text>
+    <rect x="322" y="436" width="66" height="18" rx="9" fill="#dcfce7"/>
+    <text x="355" y="449" text-anchor="middle" fill="#16a34a" font-size="10" font-weight="600">Pago</text>
+    <rect x="34" y="470" width="370" height="58" rx="14" fill="white"/>
+    <circle cx="66" cy="499" r="18" fill="#7c3aed" fill-opacity="0.14"/>
+    <text x="66" y="504" text-anchor="middle" fill="#7c3aed" font-size="12" font-weight="700">HN</text>
+    <text x="96" y="495" fill="#111" font-size="13.5" font-weight="600">Hélder Nhantumbo</text>
+    <text x="96" y="513" fill="#a1a1aa" font-size="11">10ª B · Transferência</text>
+    <text x="388" y="495" text-anchor="end" fill="#111" font-size="13" font-weight="700">2 500 MT</text>
+    <rect x="322" y="502" width="66" height="18" rx="9" fill="#dcfce7"/>
+    <text x="355" y="515" text-anchor="middle" fill="#16a34a" font-size="10" font-weight="600">Pago</text>
+    <rect x="34" y="536" width="370" height="58" rx="14" fill="white"/>
+    <circle cx="66" cy="565" r="18" fill="#0891b2" fill-opacity="0.14"/>
+    <text x="66" y="570" text-anchor="middle" fill="#0891b2" font-size="12" font-weight="700">FU</text>
+    <text x="96" y="561" fill="#111" font-size="13.5" font-weight="600">Fátima Ussene</text>
+    <text x="96" y="579" fill="#a1a1aa" font-size="11">7ª C · Secretaria</text>
+    <text x="388" y="561" text-anchor="end" fill="#111" font-size="13" font-weight="700">2 500 MT</text>
+    <rect x="322" y="568" width="66" height="18" rx="9" fill="#dcfce7"/>
+    <text x="355" y="581" text-anchor="middle" fill="#16a34a" font-size="10" font-weight="600">Pago</text>
+    <rect x="34" y="602" width="370" height="58" rx="14" fill="white"/>
+    <circle cx="66" cy="631" r="18" fill="#ea580c" fill-opacity="0.14"/>
+    <text x="66" y="636" text-anchor="middle" fill="#ea580c" font-size="12" font-weight="700">JM</text>
+    <text x="96" y="627" fill="#111" font-size="13.5" font-weight="600">Jorge Muianga</text>
+    <text x="96" y="645" fill="#a1a1aa" font-size="11">9ª A</text>
+    <text x="388" y="627" text-anchor="end" fill="#111" font-size="13" font-weight="700">2 500 MT</text>
+    <rect x="322" y="634" width="66" height="18" rx="9" fill="#ffedd5"/>
+    <text x="355" y="647" text-anchor="middle" fill="#ea580c" font-size="10" font-weight="600">Pendente</text>
+    <rect x="34" y="668" width="370" height="58" rx="14" fill="white"/>
+    <circle cx="66" cy="697" r="18" fill="#16a34a" fill-opacity="0.14"/>
+    <text x="66" y="702" text-anchor="middle" fill="#16a34a" font-size="12" font-weight="700">LC</text>
+    <text x="96" y="693" fill="#111" font-size="13.5" font-weight="600">Laura Chissano</text>
+    <text x="96" y="711" fill="#a1a1aa" font-size="11">11ª B · Carteira móvel</text>
+    <text x="388" y="693" text-anchor="end" fill="#111" font-size="13" font-weight="700">2 500 MT</text>
+    <rect x="322" y="700" width="66" height="18" rx="9" fill="#dcfce7"/>
+    <text x="355" y="713" text-anchor="middle" fill="#16a34a" font-size="10" font-weight="600">Pago</text>
+  </g>
+</svg>

@@ -1,0 +1,87 @@
+<svg width="469" height="745" viewBox="0 0 469 745" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <!-- EK Tech warehouse app (Namutequeliua): home screen, fictional data -->
+  <defs>
+    <clipPath id="screen">
+      <rect x="22" y="22" width="425" height="701" rx="44"/>
+    </clipPath>
+  </defs>
+
+  <!-- Phone body -->
+  <rect x="4" y="4" width="461" height="737" rx="58" stroke="white" stroke-opacity="0.1" stroke-width="8"/>
+  <rect x="8" y="8" width="453" height="729" rx="54" fill="#0f1115"/>
+  <rect x="8.5" y="8.5" width="452" height="728" rx="53.5" stroke="white" stroke-opacity="0.18"/>
+
+  <g clip-path="url(#screen)">
+    <rect x="22" y="22" width="425" height="701" fill="#f8f6fc"/>
+
+    <!-- Status bar -->
+    <text x="62" y="58" fill="#111" font-size="17" font-weight="600">14:12</text>
+    <rect x="186" y="34" width="98" height="28" rx="14" fill="#0f1115"/>
+    <rect x="352" y="51" width="4" height="6" rx="1" fill="#111"/>
+    <rect x="358" y="48" width="4" height="9" rx="1" fill="#111"/>
+    <rect x="364" y="45" width="4" height="12" rx="1" fill="#111"/>
+    <rect x="378" y="45" width="28" height="13" rx="4" stroke="#111" stroke-opacity="0.4" stroke-width="1.5"/>
+    <rect x="381" y="48" width="16" height="7" rx="2" fill="#111"/>
+
+    <!-- Header: menu, notifications -->
+    <path d="M50 96H70M50 103H66M50 110H70" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M378 110V101a10 10 0 0 1 20 0V110l3 3H375l3-3Z" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M384 116a4 4 0 0 0 8 0" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="398" cy="94" r="8" fill="#f59e0b"/>
+    <text x="398" y="98" text-anchor="middle" fill="white" font-size="10" font-weight="700">3</text>
+    <text x="420" y="111" fill="#111" font-size="17" font-weight="600">A</text>
+
+    <!-- Greeting -->
+    <rect x="38" y="134" width="393" height="96" rx="18" fill="white"/>
+    <circle cx="88" cy="182" r="30" fill="#16a34a"/>
+    <text x="88" y="190" text-anchor="middle" fill="white" font-size="20" font-weight="600">NC</text>
+    <text x="134" y="176" fill="#111" font-size="19" font-weight="600">Olá, Nelson</text>
+    <text x="134" y="200" fill="#71717a" font-size="14">Boa tarde</text>
+    <circle cx="210" cy="195" r="7" fill="#fbbf24"/>
+
+    <!-- Tasks today -->
+    <rect x="30" y="250" width="409" height="186" rx="20" fill="#fdfcff" stroke="#ece7f6"/>
+    <text x="52" y="286" fill="#111" font-size="19" font-weight="700">Tarefas - Hoje</text>
+    <text x="417" y="286" text-anchor="end" fill="#16a34a" font-size="14" font-weight="600">Ver tudo</text>
+
+    <circle cx="112" cy="352" r="38" stroke="#fde7d4" stroke-width="7"/>
+    <circle cx="112" cy="352" r="38" stroke="#f59e0b" stroke-width="7" stroke-linecap="round" stroke-dasharray="54 238.8" transform="rotate(-90 112 352)"/>
+    <text x="112" y="361" text-anchor="middle" fill="#f59e0b" font-size="26" font-weight="600">4</text>
+    <text x="112" y="418" text-anchor="middle" fill="#a1a1aa" font-size="12.5">Não iniciado</text>
+
+    <circle cx="234" cy="352" r="38" stroke="#dbeafe" stroke-width="7"/>
+    <circle cx="234" cy="352" r="38" stroke="#3b82f6" stroke-width="7" stroke-linecap="round" stroke-dasharray="78 238.8" transform="rotate(-90 234 352)"/>
+    <text x="234" y="361" text-anchor="middle" fill="#3b82f6" font-size="26" font-weight="600">6</text>
+    <text x="234" y="418" text-anchor="middle" fill="#a1a1aa" font-size="12.5">Em andamento</text>
+
+    <circle cx="356" cy="352" r="38" stroke="#dcfce7" stroke-width="7"/>
+    <circle cx="356" cy="352" r="38" stroke="#16a34a" stroke-width="7" stroke-linecap="round" stroke-dasharray="156 238.8" transform="rotate(-90 356 352)"/>
+    <text x="356" y="361" text-anchor="middle" fill="#16a34a" font-size="26" font-weight="600">12</text>
+    <text x="356" y="418" text-anchor="middle" fill="#a1a1aa" font-size="12.5">Concluído</text>
+
+    <!-- Warehouse -->
+    <rect x="30" y="456" width="409" height="300" rx="20" fill="#fdfcff" stroke="#ece7f6"/>
+    <text x="52" y="492" fill="#111" font-size="19" font-weight="700">Armazém</text>
+    <text x="417" y="492" text-anchor="end" fill="#16a34a" font-size="14" font-weight="600">Ver tudo</text>
+
+    <rect x="52" y="510" width="365" height="88" rx="14" fill="#fff4ea" stroke="#fde3c8"/>
+    <rect x="70" y="527" width="54" height="54" rx="12" fill="#fed7aa"/>
+    <path d="M84 546h26l-3-8H87l-3 8Z" fill="#f97316"/>
+    <rect x="86" y="547" width="22" height="18" rx="2" fill="#f97316"/>
+    <rect x="94" y="554" width="6" height="11" fill="#fed7aa"/>
+    <text x="142" y="545" fill="#a1a1aa" font-size="13.5">Total de itens</text>
+    <text x="142" y="583" fill="#f97316" font-size="32" font-weight="700">35</text>
+
+    <text x="52" y="634" fill="#111" font-size="16" font-weight="600">Últimos movimentos</text>
+
+    <rect x="52" y="652" width="42" height="42" rx="10" fill="#fee2e2"/>
+    <path d="M73 662v18M66 668l7-7 7 7M64 684h18" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="108" y="670" fill="#111" font-size="14.5">Arroz 25kg - 1/40</text>
+    <text x="108" y="689" fill="#ef4444" font-size="12.5">Saída</text>
+
+    <rect x="52" y="704" width="42" height="42" rx="10" fill="#dcfce7"/>
+    <path d="M73 732v-18M66 726l7 7 7-7M64 738h18" stroke="#16a34a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="108" y="722" fill="#111" font-size="14.5">Óleo vegetal 5L - 1/12</text>
+    <text x="108" y="741" fill="#16a34a" font-size="12.5">Entrada</text>
+  </g>
+</svg>

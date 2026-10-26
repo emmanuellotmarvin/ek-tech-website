@@ -1,0 +1,39 @@
+<svg width="466" height="350" viewBox="0 0 466 350" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <!-- EK Tech example: delivery app order card (fictional data) -->
+  <rect width="466" height="350" rx="20" fill="white"/>
+
+  <circle cx="46" cy="46" r="22" fill="#dbeafe"/>
+  <circle cx="37" cy="52" r="5" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="56" cy="52" r="5" stroke="#2563eb" stroke-width="2"/>
+  <path d="M37 52l6-10h7l6 10M43 42h-4M50 42l2-4h4" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="80" y="42" fill="#111" font-size="17" font-weight="700">Pedido #1042</text>
+  <text x="80" y="62" fill="#71717a" font-size="12">Loja Central · 3 artigos</text>
+  <rect x="302" y="31" width="140" height="26" rx="13" fill="#dcfce7"/>
+  <text x="372" y="48" text-anchor="middle" fill="#16a34a" font-size="11.5" font-weight="600">Pago · Carteira móvel</text>
+
+  <rect x="24" y="86" width="418" height="122" rx="14" fill="#eef2ff"/>
+  <path d="M24 150h418M120 86v122M300 86v122M24 115h120M300 180h142" stroke="white" stroke-width="9"/>
+  <path d="M62 184C120 184 120 150 175 150S250 112 310 112 370 112 404 104" stroke="#2563eb" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="1 8"/>
+  <circle cx="62" cy="184" r="8" fill="#16a34a" stroke="white" stroke-width="3"/>
+  <path d="M404 116c-8-9-12-15-12-20a12 12 0 0 1 24 0c0 5-4 11-12 20Z" fill="#ef4444"/>
+  <circle cx="404" cy="96" r="4.5" fill="white"/>
+  <circle cx="226" cy="141" r="14" fill="#2563eb" stroke="white" stroke-width="3"/>
+  <path d="M221 141h10M227 136l5 5-5 5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M72 238H221" stroke="#16a34a" stroke-width="3"/>
+  <path d="M245 238H394" stroke="#e4e4e7" stroke-width="3"/>
+  <circle cx="60" cy="238" r="12" fill="#16a34a"/>
+  <path d="M54.5 238l4 4 7-8" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="233" cy="238" r="12" fill="white" stroke="#2563eb" stroke-width="3"/>
+  <circle cx="233" cy="238" r="5" fill="#2563eb"/>
+  <circle cx="406" cy="238" r="12" fill="#f4f4f5" stroke="#e4e4e7" stroke-width="2"/>
+  <text x="60" y="272" text-anchor="middle" fill="#111" font-size="12.5" font-weight="600">Confirmado</text>
+  <text x="233" y="272" text-anchor="middle" fill="#2563eb" font-size="12.5" font-weight="600">A caminho</text>
+  <text x="406" y="272" text-anchor="middle" fill="#a1a1aa" font-size="12.5">Entregue</text>
+
+  <rect x="24" y="292" width="418" height="40" rx="12" fill="#f4f4f5"/>
+  <circle cx="46" cy="312" r="8" stroke="#2563eb" stroke-width="2"/>
+  <path d="M46 307.5V312l3 2" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+  <text x="62" y="317" fill="#111" font-size="13" font-weight="600">Chega em 12 min</text>
+  <text x="428" y="317" text-anchor="end" fill="#71717a" font-size="12">Estafeta: João</text>
+</svg>

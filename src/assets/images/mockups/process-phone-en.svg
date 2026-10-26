@@ -1,0 +1,85 @@
+<svg width="351" height="722" viewBox="0 0 351 722" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <!-- EK Tech example: the plan of an app project as a task list (fictional data) -->
+  <defs>
+    <clipPath id="screen"><rect x="16" y="16" width="319" height="690" rx="38"/></clipPath>
+    <filter id="tab-shadow" x="-20%" y="-30%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect x="3" y="3" width="345" height="716" rx="50" stroke="white" stroke-opacity="0.1" stroke-width="6"/>
+  <rect x="6" y="6" width="339" height="710" rx="47" fill="#0f1115"/>
+  <rect x="6.5" y="6.5" width="338" height="709" rx="46.5" stroke="white" stroke-opacity="0.18"/>
+
+  <g clip-path="url(#screen)">
+    <rect x="16" y="16" width="319" height="690" fill="white"/>
+
+    <!-- Status bar -->
+    <text x="44" y="46" fill="#111" font-size="13" font-weight="600">9:41</text>
+    <rect x="132" y="27" width="87" height="24" rx="12" fill="#0f1115"/>
+    <rect x="268" y="40" width="3" height="5" rx="1" fill="#111"/>
+    <rect x="273" y="37.5" width="3" height="7.5" rx="1" fill="#111"/>
+    <rect x="278" y="35" width="3" height="10" rx="1" fill="#111"/>
+    <rect x="288" y="35" width="22" height="10.5" rx="3" stroke="#111" stroke-opacity="0.4" stroke-width="1.2"/>
+    <rect x="290.5" y="37.5" width="12" height="5.5" rx="1.5" fill="#111"/>
+
+    <!-- Menu and options -->
+    <path d="M36 80h18M36 86.5h18M36 93h18" stroke="#3f3f46" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="298" cy="86.5" r="2" fill="#3f3f46"/>
+    <circle cx="306" cy="86.5" r="2" fill="#3f3f46"/>
+    <circle cx="314" cy="86.5" r="2" fill="#3f3f46"/>
+
+    <text x="36" y="136" fill="#111" font-size="26" font-weight="700">Project plan</text>
+    <text x="36" y="158" fill="#71717a" font-size="12.5">Delivery app · 8 weeks</text>
+
+    <!-- Filters -->
+    <rect x="36" y="174" width="279" height="40" rx="12" fill="#f4f4f5"/>
+    <rect x="40" y="178" width="58" height="32" rx="9" fill="white" filter="url(#tab-shadow)"/>
+    <text x="69" y="198.5" text-anchor="middle" fill="#111" font-size="11.5" font-weight="600">All</text>
+    <text x="131" y="198.5" text-anchor="middle" fill="#71717a" font-size="11.5" font-weight="400">To do</text>
+    <text x="203" y="198.5" text-anchor="middle" fill="#71717a" font-size="11.5" font-weight="400">In progress</text>
+    <text x="277" y="198.5" text-anchor="middle" fill="#71717a" font-size="11.5" font-weight="400">Done</text>
+
+    <!-- Project steps -->
+    <rect x="36.5" y="228.5" width="278" height="61" rx="14" fill="white" stroke="#ececee"/>
+    <circle cx="62" cy="259" r="11" fill="#22c55e"/>
+    <path d="M56.5 259.5l3.8 3.8 7.2-8" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="86" y="255" fill="#111" font-size="13.5" text-decoration="line-through">Consultation meeting</text>
+    <circle cx="91" cy="272" r="5" stroke="#71717a" stroke-width="1.3"/>
+    <path d="M91 269.5v2.8l1.8 1.2" stroke="#71717a" stroke-width="1.3" stroke-linecap="round"/>
+    <text x="102" y="276" fill="#71717a" font-size="11">Week 1</text>
+    <path d="M286 250v19M286 251h13l-3.5 5 3.5 5h-13" fill="#22c55e" stroke="#22c55e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="36.5" y="300.5" width="278" height="61" rx="14" fill="white" stroke="#ececee"/>
+    <circle cx="62" cy="331" r="10" stroke="#a1a1aa" stroke-width="1.8"/>
+    <text x="86" y="327" fill="#111" font-size="13.5">Requirements gathering</text>
+    <circle cx="91" cy="344" r="5" stroke="#71717a" stroke-width="1.3"/>
+    <path d="M91 341.5v2.8l1.8 1.2" stroke="#71717a" stroke-width="1.3" stroke-linecap="round"/>
+    <text x="102" y="348" fill="#71717a" font-size="11">Week 1</text>
+    <path d="M286 322v19M286 323h13l-3.5 5 3.5 5h-13" stroke="#a1a1aa" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="36.5" y="372.5" width="278" height="61" rx="14" fill="white" stroke="#ececee"/>
+    <circle cx="62" cy="403" r="10" stroke="#a1a1aa" stroke-width="1.8"/>
+    <text x="86" y="399" fill="#111" font-size="13.5">Screen design</text>
+    <circle cx="91" cy="416" r="5" stroke="#71717a" stroke-width="1.3"/>
+    <path d="M91 413.5v2.8l1.8 1.2" stroke="#71717a" stroke-width="1.3" stroke-linecap="round"/>
+    <text x="102" y="420" fill="#71717a" font-size="11">Weeks 2-3</text>
+    <path d="M286 394v19M286 395h13l-3.5 5 3.5 5h-13" stroke="#a1a1aa" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="36.5" y="444.5" width="278" height="61" rx="14" fill="white" stroke="#ececee"/>
+    <circle cx="62" cy="475" r="10" stroke="#a1a1aa" stroke-width="1.8"/>
+    <text x="86" y="471" fill="#111" font-size="13.5">Development</text>
+    <circle cx="91" cy="488" r="5" stroke="#71717a" stroke-width="1.3"/>
+    <path d="M91 485.5v2.8l1.8 1.2" stroke="#71717a" stroke-width="1.3" stroke-linecap="round"/>
+    <text x="102" y="492" fill="#71717a" font-size="11">Weeks 4-7</text>
+    <path d="M286 466v19M286 467h13l-3.5 5 3.5 5h-13" stroke="#a1a1aa" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="36.5" y="516.5" width="278" height="61" rx="14" fill="white" stroke="#ececee"/>
+    <circle cx="62" cy="547" r="10" stroke="#a1a1aa" stroke-width="1.8"/>
+    <text x="86" y="543" fill="#111" font-size="13.5">Testing and launch</text>
+    <circle cx="91" cy="560" r="5" stroke="#71717a" stroke-width="1.3"/>
+    <path d="M91 557.5v2.8l1.8 1.2" stroke="#71717a" stroke-width="1.3" stroke-linecap="round"/>
+    <text x="102" y="564" fill="#71717a" font-size="11">Week 8</text>
+    <path d="M286 538v19M286 539h13l-3.5 5 3.5 5h-13" stroke="#a1a1aa" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Add a step -->
+    <rect x="36" y="588" width="279" height="50" rx="14" fill="#f4f4f5"/>
+    <path d="M62 606v14M55 613h14" stroke="#71717a" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="86" y="617.5" fill="#71717a" font-size="12.5">Add a step…</text>
+  </g>
+</svg>
